@@ -25,7 +25,7 @@ The short answer from this data is that the promises are the main problem. Late 
 - **DataCo Smart Supply Chain** (Kaggle): 180,519 rows and 53 columns of order data. Download it from Kaggle yourself; I have not included it here.
 - **World Bank Logistics Performance Index** (2018), pulled live from the World Bank API with Python. I used it to test whether poor-logistics countries really have more late deliveries.
 
-**Limitations of the data you should know about:**
+**Limitations of the data :**
 
 - There is **no supplier column**, so I could not do supplier-level analysis. I defined risk by shipping mode, region and product category instead.
 - The delivery times look partly synthetic. Second and Standard Class are spread almost perfectly evenly across 2 to 6 days, which real logistics data rarely is. I treat the findings as a demonstration of the method, not as claims about a real company.
